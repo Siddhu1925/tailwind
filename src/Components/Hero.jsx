@@ -22,7 +22,7 @@ function Hero() {
     return (
         <div className="text-white ">
             <div className="max-w-3xl -mt-24 w-full mx-auto h-screen text-center flex flex-col justify-center px-2">
-                <p className="text-[#8cecff] font-bold p-2">
+                <p className=" font-bold p-2">
                     A FLEET THAT MEETS YOUR NEEDS
                 </p>
                 <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6">
@@ -30,7 +30,7 @@ function Hero() {
                 </h1>
                 <div>
                     
-                    <p className="md:text-5xl sm:text-4xl text-xl font-bold py-4">
+                    <p className=" text-[#FF0000]  md:text-5xl sm:text-4xl text-xl font-bold py-4">
                         Any car you want -{' '}
                         <span
                             className="text-gray-500 md:text-5xl sm:text-4xl text-xl font-bold"
@@ -45,12 +45,13 @@ function Hero() {
                 </p>
                 <button
                     type="button"
-                    className="bg-[#8cecff] w-48 rounded-md font-medium my-6 mx-auto py-3 text-black"
+                    className="bg-[#FFFF00] w-48 rounded-md font-medium my-6 mx-auto py-3 text-black"
                 >
                     Get Started
                 </button>
             </div>
         </div>
+        
     )
 }
 

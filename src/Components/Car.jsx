@@ -1,5 +1,5 @@
 import React from 'react'
-import carImg from '../assets/car.png'
+import carImg from '../assets/car3.jpg'
 
 function Car() {
     return (
@@ -12,7 +12,7 @@ function Car() {
                 />
             </div>
             <div className='flex flex-col justify-center'>
-                <p classNme="text-[#8cecff] font-bold block bg-slate-800 w-max px-6 py-1 rounded-r-lg">
+                <p classNme=" text-[#8cecff] font-bold block bg-slate-800 w-max px-6 py-1 rounded-r-lg">
                     PREMIUM CARS AVAILABLE
                 </p>
                 <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>
